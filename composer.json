@@ -1,5 +1,5 @@
 {
-    "name": "crada/phalcon-user-plugin",
+    "name": "quangvule/phalcon-user-plugin",
     "type": "library",
     "description": "User plugin for Phalcon PHP framework",
     "keywords": ["phalcon","user","login","facebook", "twitter", "linkedin", "google-plus"],
