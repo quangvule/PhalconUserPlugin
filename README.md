@@ -1,12 +1,4 @@
-# IMPORATNT! You should switch to branch v3.0.0
-
-We have switched to facebook/graph-sdk 5.4 !
-
-```bash
-$ composer require crada/phalcon-user-plugin:^3.0
-```
-
-# Phalcon User Plugin (v 2.0)
+# Phalcon User Plugin (v 3.0)
 
 * [About](#about)
 * [Features](#features)
@@ -43,13 +35,18 @@ The recommended installation is via Composer. Just add the following line to you
 ```json
 {
     "require": {
-        "crada/phalcon-user-plugin": "~2.0"
+        "crada/phalcon-user-plugin": "^3.0"
     }
 }
 ```
 
 ```bash
 $ php composer.phar update
+```
+OR simply execute
+
+```bash
+$ composer require crada/phalcon-user-plugin:^3.0
 ```
 
 ### <a id="plug-it"></a>Plug it
