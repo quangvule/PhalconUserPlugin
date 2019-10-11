@@ -1,5 +1,5 @@
 {
-    "name": "crada/phalcon-user-plugin",
+    "name": "quangvule/phalcon-user-plugin",
     "type": "library",
     "description": "User plugin for Phalcon PHP framework",
     "keywords": ["phalcon","user","login","facebook", "twitter", "linkedin", "google-plus"],
@@ -24,9 +24,6 @@
       "phpunit/phpunit": "4.6.*",
       "phalcon/incubator": "dev-master",
       "phalcon/devtools": "dev-master"
-    },
-    "autoload": {
-        "files": ["lib/swift_required.php"]
     },
     "autoload": {
         "psr-4": { "Phalcon\\UserPlugin\\": "lib/" }

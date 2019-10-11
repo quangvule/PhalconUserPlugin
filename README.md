@@ -12,8 +12,7 @@
 
 ### <a id="about"></a>About
 
-It is a plugin based on Vokuro ACL idea. This is an alpha version and i do not recommend you to use it in
-a production environment.
+This is a plugin based on Vokuro ACL idea.
     
 ### <a id="features"></a>Features
 
@@ -91,21 +90,21 @@ use Phalcon\UserPlugin\Acl\Acl;
 use Phalcon\UserPlugin\Mail\Mail;
 
 $di->setShared(
-    'auth'
+    'auth',
     function() {
         return new Auth();
     }
 );
 
 $di->setShared(
-    'acl'
+    'acl',
     function() {
         return new Acl();
     }
 );
 
 $di->setShared(
-    'mail'
+    'mail',
     function() {
         return new Mail();
     }
